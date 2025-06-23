@@ -4,7 +4,7 @@ Description: Full stack for EKS app deployment including VPC, EKS, RDS, IAM, ECR
 Parameters:
   GitHubRepo:
     Type: String
-    Default: PavanThumati/php-flask-application
+    Default: PavanThumati/php-flask-appliaction-CF
   GitHubBranch:
     Type: String
     Default: main
