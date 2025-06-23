@@ -172,12 +172,12 @@ Resources:
   FrontendECRRepo:
     Type: AWS::ECR::Repository
     Properties:
-      RepositoryName: frontend
+      RepositoryName: frontend-image
  
   BackendECRRepo:
     Type: AWS::ECR::Repository
     Properties:
-      RepositoryName: backend
+      RepositoryName: backend-image
  
   CodeBuildServiceRole:
     Type: AWS::IAM::Role
