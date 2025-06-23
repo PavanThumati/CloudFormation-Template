@@ -182,7 +182,7 @@ Resources:
   CodeBuildServiceRole:
     Type: AWS::IAM::Role
     Properties:
-      RoleName: CodeBuildServiceRole
+      RoleName: CodeBuildServiceRoleCFT
       AssumeRolePolicyDocument:
         Version: "2012-10-17"
         Statement:
@@ -250,7 +250,7 @@ Resources:
   EKSClusterRole:
     Type: AWS::IAM::Role
     Properties:
-      RoleName: EKSClusterRole
+      RoleName: EKSClusterRoleCFT
       AssumeRolePolicyDocument:
         Version: "2012-10-17"
         Statement:
@@ -269,7 +269,7 @@ Resources:
   EKSNodeGroupRole:
     Type: AWS::IAM::Role
     Properties:
-      RoleName: EKSNodeGroupRole
+      RoleName: EKSNodeGroupRoleCFT
       AssumeRolePolicyDocument:
         Version: "2012-10-17"
         Statement:
@@ -405,7 +405,7 @@ Resources:
   CodePipelineDeployRole:
     Type: AWS::IAM::Role
     Properties:
-      RoleName: CodePipelineEKSDeployRole
+      RoleName: CodePipelineEKSDeployRoleCFT
       AssumeRolePolicyDocument:
         Version: "2012-10-17"
         Statement:
